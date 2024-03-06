@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.codebuilding.CalendarPages.AddEventPage">
+  <grid id="27dc6" binding="AddEventPanel" layout-manager="GridLayoutManager" row-count="12" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-6501444"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="73d23" class="javax.swing.JFormattedTextField" binding="addEventsFormattedTextField" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6501444"/>
+          <editable value="false"/>
+          <font name="Droid Serif" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <text value="Add Events"/>
+        </properties>
+      </component>
+      <component id="40948" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <labelFor value="2b410"/>
+          <text value="Event Name:"/>
+        </properties>
+      </component>
+      <component id="2b410" class="javax.swing.JTextField" binding="eventName">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Droid Serif" size="14" style="0"/>
+          <foreground color="-5289647"/>
+        </properties>
+      </component>
+      <component id="ec896" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <labelFor value="85fc7"/>
+          <text value="Event Date: (YYYY-MM-DD)"/>
+        </properties>
+      </component>
+      <component id="85fc7" class="javax.swing.JTextField" binding="eventDate">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Droid Serif" size="14" style="0"/>
+          <foreground color="-5289647"/>
+        </properties>
+      </component>
+      <component id="f6f6c" class="javax.swing.JButton" binding="backButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5289647"/>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <component id="1260f" class="javax.swing.JButton" binding="addButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5289647"/>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Add"/>
+        </properties>
+      </component>
+      <component id="39e3a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <labelFor value="16dcd"/>
+          <text value="Event Description:"/>
+        </properties>
+      </component>
+      <component id="16dcd" class="javax.swing.JTextField" binding="eventDescription">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Droid Serif" size="14" style="0"/>
+          <foreground color="-5289647"/>
+        </properties>
+      </component>
+      <component id="dc150" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="4" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Event Type:"/>
+        </properties>
+      </component>
+      <component id="dbd9a" class="javax.swing.JRadioButton" binding="paydayRadioButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6501444"/>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <selected value="false"/>
+          <text value="Payday"/>
+        </properties>
+      </component>
+      <component id="a5b7d" class="javax.swing.JRadioButton" binding="billRadioButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6501444"/>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Bills"/>
+        </properties>
+      </component>
+      <component id="ac52e" class="javax.swing.JRadioButton" binding="appointmentRadioButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6501444"/>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Appointment"/>
+        </properties>
+      </component>
+      <component id="7620f" class="javax.swing.JRadioButton" binding="miscRadioButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="Miscellaneous"/>
+          <background color="-6501444"/>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Miscellaneous"/>
+        </properties>
+      </component>
+      <component id="5465f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <labelFor value="adcf6"/>
+          <text value="Username:"/>
+        </properties>
+      </component>
+      <component id="adcf6" class="javax.swing.JTextField" binding="Username">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font name="Droid Serif" size="14" style="0"/>
+          <foreground color="-5289647"/>
+        </properties>
+      </component>
+      <hspacer id="44a56">
+        <constraints>
+          <grid row="0" column="5" row-span="12" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="d1cc3">
+        <constraints>
+          <grid row="0" column="0" row-span="12" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="9fbf0">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="e577d">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="1bc41">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="TypesGroup">
+      <member id="a5b7d"/>
+      <member id="dbd9a"/>
+      <member id="ac52e"/>
+      <member id="7620f"/>
+    </group>
+  </buttonGroups>
+</form>

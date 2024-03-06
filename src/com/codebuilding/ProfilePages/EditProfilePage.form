@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.codebuilding.ProfilePages.EditProfilePage">
+  <grid id="27dc6" binding="EditProfilePanel" layout-manager="GridLayoutManager" row-count="27" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="638" height="724"/>
+    </constraints>
+    <properties>
+      <background color="-6501444"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="76671" class="javax.swing.JButton" binding="CancelButton">
+        <constraints>
+          <grid row="25" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5289647"/>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Cancel"/>
+        </properties>
+      </component>
+      <component id="b53d3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <labelFor value="f6e05"/>
+          <text value="User Email"/>
+        </properties>
+      </component>
+      <component id="f6e05" class="javax.swing.JTextField" binding="EmailTextField">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Droid Serif" size="14" style="0"/>
+          <foreground color="-5289647"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="56844" class="javax.swing.JTextField" binding="DateOfBirthTextField">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Droid Serif" size="14" style="0"/>
+          <foreground color="-5289647"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="50d4c" class="javax.swing.JTextField" binding="FirstNameTextField">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Droid Serif" size="14" style="0"/>
+          <foreground color="-5289647"/>
+          <text value=""/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="ebdcc" class="javax.swing.JTextField" binding="LastNameTextField">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Droid Serif" size="14" style="0"/>
+          <foreground color="-5289647"/>
+          <text value=""/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="cc85e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="57" height="14"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <labelFor value="ebdcc"/>
+          <text value="Last Name"/>
+        </properties>
+      </component>
+      <component id="aab78" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <labelFor value="50d4c"/>
+          <text value="First Name"/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="101ad" class="javax.swing.JPasswordField" binding="PasswordTextField">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Droid Serif" size="14" style="0"/>
+          <foreground color="-5289647"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="1f671" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <labelFor value="101ad"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="df30d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <labelFor value="c0609"/>
+          <text value="Confirm Password"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="c0609" class="javax.swing.JPasswordField" binding="ConfirmPasswordTextField">
+        <constraints>
+          <grid row="17" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Droid Serif" size="14" style="0"/>
+          <foreground color="-5289647"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="8e3dd" class="javax.swing.JButton" binding="SaveProfileButton">
+        <constraints>
+          <grid row="25" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5289647"/>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Save Profile"/>
+        </properties>
+      </component>
+      <vspacer id="5af1b">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="19799">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="e5703">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ba5d">
+        <constraints>
+          <grid row="3" column="3" row-span="4" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="290ab">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="1bca3">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="38f31">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="b6427">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="92ca6">
+        <constraints>
+          <grid row="11" column="2" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="34864">
+        <constraints>
+          <grid row="11" column="3" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="3c909">
+        <constraints>
+          <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="102bf">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="d82e5">
+        <constraints>
+          <grid row="14" column="3" row-span="5" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="2d09a">
+        <constraints>
+          <grid row="24" column="2" row-span="3" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="75a89">
+        <constraints>
+          <grid row="24" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="d37ab">
+        <constraints>
+          <grid row="26" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ab6cf">
+        <constraints>
+          <grid row="26" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="b6f93">
+        <constraints>
+          <grid row="0" column="4" row-span="27" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="1a26f">
+        <constraints>
+          <grid row="0" column="0" row-span="27" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="d5751">
+        <constraints>
+          <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="d4c4">
+        <constraints>
+          <grid row="18" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="2edf2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="19" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <labelFor value="374c"/>
+          <text value="Security Question 1"/>
+        </properties>
+      </component>
+      <component id="851d8" class="javax.swing.JComboBox" binding="SecurityQuestion1ComboBox">
+        <constraints>
+          <grid row="20" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Droid Serif" size="14" style="0"/>
+          <foreground color="-5289647"/>
+          <model>
+            <item value="Choose a question here."/>
+            <item value="What Is your favorite book?"/>
+            <item value="What is the name of the road you grew up on?"/>
+            <item value="What is your mother’s maiden name?"/>
+            <item value="What was the name of your first/current/favorite pet?"/>
+            <item value="What was the first company that you worked for?"/>
+            <item value="Where did you meet your spouse?"/>
+            <item value="Where did you go to high school/college?"/>
+            <item value="What is your favorite food?"/>
+            <item value="What city were you born in?"/>
+            <item value="Where is your favorite place to vacation?"/>
+          </model>
+        </properties>
+      </component>
+      <component id="72dd6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="19" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <labelFor value="d4806"/>
+          <text value="Security Question 1 Answer"/>
+        </properties>
+      </component>
+      <component id="8121d" class="javax.swing.JTextField" binding="SecurityQuestion1AnswerTextField">
+        <constraints>
+          <grid row="20" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Droid Serif" size="14" style="0"/>
+          <foreground color="-5289647"/>
+        </properties>
+      </component>
+      <vspacer id="4ad0e">
+        <constraints>
+          <grid row="21" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="4f4d8">
+        <constraints>
+          <grid row="21" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="90c72">
+        <constraints>
+          <grid row="21" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="dab20" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="22" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <labelFor value="9f376"/>
+          <text value="Security Question 2"/>
+        </properties>
+      </component>
+      <component id="7cf8a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="22" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <labelFor value="55638"/>
+          <text value="Security Question 2 Answer"/>
+        </properties>
+      </component>
+      <component id="c982e" class="javax.swing.JComboBox" binding="SecurityQuestion2ComboBox">
+        <constraints>
+          <grid row="23" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Droid Serif" size="14" style="0"/>
+          <foreground color="-5289647"/>
+          <model>
+            <item value="Choose a question here."/>
+            <item value="What Is your favorite book?"/>
+            <item value="What is the name of the road you grew up on?"/>
+            <item value="What is your mother’s maiden name?"/>
+            <item value="What was the name of your first/current/favorite pet?"/>
+            <item value="What was the first company that you worked for?"/>
+            <item value="Where did you meet your spouse?"/>
+            <item value="Where did you go to high school/college?"/>
+            <item value="What is your favorite food?"/>
+            <item value="What city were you born in?"/>
+            <item value="Where is your favorite place to vacation?"/>
+          </model>
+        </properties>
+      </component>
+      <component id="9f750" class="javax.swing.JTextField" binding="SecurityQuestion2AnswerTextField">
+        <constraints>
+          <grid row="23" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Droid Serif" size="14" style="0"/>
+          <foreground color="-5289647"/>
+        </properties>
+      </component>
+      <vspacer id="6eef5">
+        <constraints>
+          <grid row="24" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="c872d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <labelFor value="56844"/>
+          <text value="Date of Birth"/>
+        </properties>
+      </component>
+      <component id="b122c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <labelFor value="248db"/>
+          <text value="Gender"/>
+        </properties>
+      </component>
+      <component id="248db" class="javax.swing.JComboBox" binding="GenderComboBox">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Droid Serif" size="14" style="0"/>
+          <foreground color="-5289647"/>
+          <model>
+            <item value="Please choose your gender."/>
+            <item value="Male"/>
+            <item value="Female"/>
+            <item value="Other"/>
+          </model>
+        </properties>
+      </component>
+      <component id="28701" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <labelFor value="e6783"/>
+          <text value="Old Username"/>
+        </properties>
+      </component>
+      <component id="e6783" class="javax.swing.JTextField" binding="UsernameTextField">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font name="Droid Serif" size="14" style="0"/>
+          <foreground color="-5289647"/>
+        </properties>
+      </component>
+      <component id="6d8eb" class="javax.swing.JLabel" binding="ProfilePic">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e0f23" class="javax.swing.JButton" binding="editProfilePictureButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5289647"/>
+          <font name="Droid Serif" size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Edit Profile Picture"/>
+        </properties>
+      </component>
+      <vspacer id="85d8a">
+        <constraints>
+          <grid row="7" column="3" row-span="3" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="ca3e9" class="javax.swing.JFormattedTextField" binding="editProfileFormattedTextField" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6501444"/>
+          <caretColor color="-6501444"/>
+          <disabledTextColor color="-16777216"/>
+          <editable value="false"/>
+          <font name="Droid Serif" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <selectedTextColor color="-16777216"/>
+          <selectionColor color="-16777216"/>
+          <text value="Edit Profile"/>
+        </properties>
+      </component>
+      <vspacer id="9e5e2">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
